@@ -38,7 +38,7 @@ const Signup = ({ setIsSignedUp, setUsername }) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSignup = () => {
+  const handleSignup = () => { 
     // Perform signup logic here, e.g., send data to server
     console.log('Form submitted:', formData);
     // After successful signup, update state and set username
