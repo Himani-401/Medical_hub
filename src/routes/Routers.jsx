@@ -22,10 +22,10 @@ const Routers = () => {
                 <Route path="/" element={<Home />} />
                 <Route path="/home" element={<Home />} />
                 <Route path="/doctors" element={<Doctors />} />
-                <Route path="/doctors/:id" element={<DoctorDetails />} />
+                {/* <Route path="/doctors/:id" element={<DoctorDetails />} /> */}
                 <Route path="/login" element={<Login setIsLoggedIn={setIsLoggedIn} setUsername={setUsername} />} /> {/* Pass setIsLoggedIn and setUsername props to Login component */}
                 <Route path="/register" element={<Signup setIsSignedUp={ setIsLoggedIn} setUsername={setUsername} />} /> {/* Pass setUsername prop to Signup component */}
-                <Route path='/profile' element={<Profile/>}/>
+                {/* <Route path='/profile' element={<Profile/>}/> */}
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/services" element={<Services />} />
                 <Route path="/Nearby" element={<Nearby_hospitals/>} />
